@@ -8,13 +8,25 @@ const Features = () => {
                 <h2 className="heading">what i offer</h2>
                 <div className="items">
                     <div className="feature">
-                        Feature 1
+                        <h3>Photoshop</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing eli
+                            t, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                        </p>
                     </div>
                     <div className="feature">
-                        Feature 2
+                        <h3>Grephics Design</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing eli
+                            t, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                        </p>
                     </div>
                     <div className="feature">
-                        Feature 3
+                        <h3>Lorem ipsum</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing eli
+                            t, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                        </p>
                     </div>
                 </div>
             </div>

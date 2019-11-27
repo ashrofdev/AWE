@@ -5,6 +5,8 @@ body {
 }
 html {
     font-size: 72.52%;
+    padding: 0;
+    margin: 0;
 }
 * {
     padding: 0;
@@ -21,6 +23,7 @@ html {
 h3 {
     font-size: 1.7rem;
     font-weight: 400;
+    margin-bottom: 1rem;
 }
 p {
     color: #777;

@@ -1,5 +1,14 @@
+.features {
+    background-color: rgb(230, 230, 230);
+}
 .features .items {
     display: flex;
     justify-content: space-between;
     padding: 3rem 0;
 }
+.features .feature {
+    padding: 2rem;
+    margin: 1rem;
+    border: 1px dotted black;
+}
+

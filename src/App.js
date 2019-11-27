@@ -13,9 +13,6 @@ class App extends Component {
         <Header/>
         <About/>
         <Features/>
-        
-       
-
       </div>
     );
   }
