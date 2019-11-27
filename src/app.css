@@ -1,8 +1,37 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
+}
+html {
+    font-size: 62.52%;
 }
 * {
     padding: 0;
     margin: 0;
+}
+
+.heading {
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+}
+h3 {
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+p {
+    color: #777;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    word-spacing: .1rem;
+}
+.section {
+    padding: 3rem 0;
+    display: grid;
+    grid-template-columns: minmax(2rem, 1fr) repeat(4, 25rem) minmax(2rem, 1fr);
+}
+.section_content {
+    grid-column: 2/6;
 }
