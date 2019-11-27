@@ -3,6 +3,7 @@ import './app.css'
 
 import Header from './components/Header/Header';
 import About from './components/AboutMe/About';
+import Features from './components/Features/Features';
 
 
 class App extends Component {
@@ -11,6 +12,8 @@ class App extends Component {
       <div className="App">
         <Header/>
         <About/>
+        <Features/>
+        
        
 
       </div>

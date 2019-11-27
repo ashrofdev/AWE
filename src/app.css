@@ -4,7 +4,7 @@ body {
     font-family: sans-serif;
 }
 html {
-    font-size: 62.52%;
+    font-size: 72.52%;
 }
 * {
     padding: 0;
@@ -16,6 +16,7 @@ html {
     font-weight: 500;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 2rem;
 }
 h3 {
     font-size: 1.7rem;
@@ -28,9 +29,9 @@ p {
     word-spacing: .1rem;
 }
 .section {
-    padding: 5rem 0;
+    padding: 8rem 0;
     display: grid;
-    grid-template-columns: minmax(2rem, 1fr) repeat(4, 25rem) minmax(2rem, 1fr);
+    grid-template-columns: minmax(2rem, 1fr) repeat(4, 20rem) minmax(2rem, 1fr);
 }
 .section_content {
     grid-column: 2/6;
