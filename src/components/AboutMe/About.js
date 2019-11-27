@@ -7,12 +7,7 @@ const About = () => {
             <div className="section_content">
                 <h2 className="heading">About me</h2>
                 <div className="seb_content">
-                    <figure>
-                        {
-                            // image
-                        }
-                    </figure>
-                    <div>
+                    <div className="text">
                         <h3>My Name</h3>
                         <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
@@ -23,6 +18,9 @@ const About = () => {
                          occaecat cupidatat non proident.
                         </p>
                     </div>
+                    <figure>
+                        <img src={require('../img/1.jpeg')}/>
+                    </figure>
                 </div>
             </div>
             

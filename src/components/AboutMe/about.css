@@ -1,3 +1,11 @@
 .about .seb_content {
     display: flex;
+    padding: 2rem 0;
+}
+
+.about img {
+    width: 100%;
+}
+.about .text {
+    margin: 2rem 5rem 0 0;
 }
