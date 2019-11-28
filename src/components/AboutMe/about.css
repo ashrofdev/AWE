@@ -10,3 +10,13 @@
 .about .text {
     margin-right: 3rem;
 }
+
+@media only screen and (max-width: 560px) {
+    .about .seb_content {
+        display: block;
+    }
+    
+    .about .text {
+        margin-bottom: 2rem;
+    }
+}

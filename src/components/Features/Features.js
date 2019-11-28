@@ -26,15 +26,6 @@ const Features = () => {
                         </p>
                     </div>
                     </Zoom>
-                    <Zoom delay={500}>
-                    <div className="feature">
-                        <h3>Lorem ipsum</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing eli
-                            t, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                        </p>
-                    </div>
-                    </Zoom>
                 </div>
             </div>
         </div>
