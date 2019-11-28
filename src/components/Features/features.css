@@ -19,4 +19,12 @@
     color: white;
 }
 
-
+@media only screen and (max-width: 380px) {
+    .features .items {
+        display: block;
+    }
+    .features .feature {
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+}

@@ -42,3 +42,11 @@ span {
     }
     
 }
+@media only screen and (max-width: 380px) {
+    .portfolio .works {
+        display: block;
+    }
+    .portfolio .work {
+        margin-bottom: 2rem;
+    }
+}
