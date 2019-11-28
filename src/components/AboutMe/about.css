@@ -11,6 +11,21 @@
     margin-right: 3rem;
 }
 
+.about h4 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+.socials {
+    display: flex;
+}
+.socials p {
+    padding: .3rem;
+    border: 1px solid currentColor;
+    margin-right: .5rem;
+    color: black;
+}
+
 @media only screen and (max-width: 560px) {
     .about .seb_content {
         display: block;

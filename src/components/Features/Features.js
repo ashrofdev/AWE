@@ -10,6 +10,7 @@ const Features = () => {
                 <div className="items">
                     <Zoom>
                     <div className="feature">
+                    <figure>📸</figure>
                         <h3>Photoshop</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing eli
@@ -19,6 +20,7 @@ const Features = () => {
                     </Zoom>
                     <Zoom delay={300}>
                     <div className="feature">
+                        <figure>🎨</figure>
                         <h3>Grephics Design</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing eli

@@ -20,6 +20,13 @@ const About = () => {
                             velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
                             occaecat cupidatat non proident.
                             </p>
+                            <h4>FOLLOW ME ON</h4>
+                            <div className="socials">
+                                <p>facebook</p>
+                                <p>twitter</p>
+                                <p>instagram</p>
+                                <p>linkedin</p>
+                            </div>
                         </div>
                     </Slide>
                     <Zoom delay={500}>
