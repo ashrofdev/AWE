@@ -1,4 +1,5 @@
 import React from 'react';
+import Zoom from 'react-reveal/Zoom'
 import './features.css'
 
 const Features = () => {
@@ -7,6 +8,7 @@ const Features = () => {
             <div className="section_content">
                 <h2 className="heading">what i offer</h2>
                 <div className="items">
+                    <Zoom>
                     <div className="feature">
                         <h3>Photoshop</h3>
                         <p>
@@ -14,6 +16,8 @@ const Features = () => {
                             t, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
                         </p>
                     </div>
+                    </Zoom>
+                    <Zoom delay={300}>
                     <div className="feature">
                         <h3>Grephics Design</h3>
                         <p>
@@ -21,6 +25,8 @@ const Features = () => {
                             t, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
                         </p>
                     </div>
+                    </Zoom>
+                    <Zoom delay={500}>
                     <div className="feature">
                         <h3>Lorem ipsum</h3>
                         <p>
@@ -28,6 +34,7 @@ const Features = () => {
                             t, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
                         </p>
                     </div>
+                    </Zoom>
                 </div>
             </div>
         </div>
