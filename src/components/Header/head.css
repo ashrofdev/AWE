@@ -27,7 +27,7 @@
 }
 .slide img {
     width: 100%;
-    filter: brightness(30%);
+    filter: brightness(50%);
     height: 100%;
     z-index: -1;
 }

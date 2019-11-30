@@ -1,0 +1,19 @@
+.clients .client {
+    text-align: center;
+    padding: 2rem 0;
+}
+.clients {
+    padding: 0;
+}
+
+.clients .client img {
+    width: 10rem;
+    height: 10rem;
+    margin: auto;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+.client p {
+    width: 35rem;
+    margin: auto;
+}

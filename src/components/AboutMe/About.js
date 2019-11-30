@@ -31,7 +31,7 @@ const About = () => {
                     </Slide>
                     <Zoom delay={500}>
                         <figure>
-                            <img src={require('../img/1.jpeg')}/>
+                            <img src={require('../img/1.jpg')}/>
                         </figure>
                     </Zoom>
                 </div>

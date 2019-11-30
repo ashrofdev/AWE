@@ -12,16 +12,16 @@ const Header = () => {
     return (
         <div className="slider">
             <img className="logo" src={require('../img/c.jpg')}/>
-            <h1>💫 AWE CHARISTIM</h1>
+            <h1>AWE CHARISTIM</h1>
             <Slider {...settings}>
                 <div className="slide">
-                   <img src={require('../img/1.jpeg')}/>
+                   <img src={require('../img/3.jpg')}/>
                 </div>
                 <div className="slide">
-                   <img src={require('../img/2.jpeg')}/>
+                   <img src={require('../img/4.jpg')}/>
                 </div>
                 <div className="slide">
-                   <img src={require('../img/3.jpeg')}/>
+                   <img src={require('../img/5.jpg')}/>
                 </div>
             </Slider>
         </div>
