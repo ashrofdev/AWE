@@ -36,7 +36,7 @@ const Contact = () => {
                         </div>
                         <div className="line">
                             <h4>ADDRESS</h4>
-                            <p>No 23, Ajakuta street, dead zone, Ibadan.</p>
+                            <p>No 23, Ajakuta street, no-entry, Ibadan.</p>
                         </div>
                         
 
