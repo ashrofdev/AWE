@@ -3,9 +3,12 @@ import { firebaseDB } from '../../Server';
 
 
 const Contact = () => {
-    onMessageSend = () => {
+    const onMessageSend = () => {
         firebaseDB.ref('clients').push().set({
-            name: 'Someone'
+            name: 'Someone Someone',
+            email: 'someone@nobody.com',
+            phone: 12122423434,
+            message: 'I kinda need yaa service'
         })
     }
     return (
