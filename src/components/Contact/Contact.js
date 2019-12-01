@@ -1,15 +1,24 @@
 import React from 'react';
+import './contact.css'
+
+
 import { firebaseDB } from '../../Server';
 
 
 const Contact = () => {
-    const onMessageSend = () => {
-        firebaseDB.ref('clients').push().set({
-            name: 'Someone Someone',
-            email: 'someone@nobody.com',
-            phone: 12122423434,
-            message: 'I kinda need yaa service'
+    const onMessageSend = async () => {
+        await firebaseDB.ref('clients').push().set({
+            name: document.querySelector('.name').value,
+            email: document.querySelector('.mail').value,
+            phone: document.querySelector('.num').value,
+            message: document.querySelector('.message').value,
+        }).then(snapshot=>{
+            console.log(snapshot)
+        }).catch(err=>{
+            console.log(err)
         })
+        document.querySelector('input').value = ''
+        document.querySelector('textarea').value = ''
     }
     return (
         <div className="section contact">
@@ -22,7 +31,11 @@ const Contact = () => {
 
                     </div>
                     <div className="right">
-                        right
+                        <input className="name" required placeholder="Enter your name"/>
+                        <input className="mail" required type="email" placeholder="Email address"/>
+                        <input className="num" type="number" placeholder="Phone no"/>
+                        <textarea className="message" placeholder="Enter your message"/>
+                        <button onClick={onMessageSend}>SEND</button>
                     </div>
                 </div>
             </div>
