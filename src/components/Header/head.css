@@ -1,5 +1,8 @@
 .slider {
     height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 .logo {
     width: 7rem;
@@ -31,6 +34,9 @@
     height: 100%;
     z-index: -1;
 }
+
+
+
 @media only screen and (max-width: 490px) {
     .slider, .slider .slide {
         height: 80vh;
