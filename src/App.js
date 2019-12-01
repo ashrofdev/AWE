@@ -35,7 +35,7 @@ class App extends Component {
         <Features/>
         <Portfolio/>
         <Clients/>
-        <Contact/>
+        <Contact scrollto="contact"/>
       </div>
     );
   }

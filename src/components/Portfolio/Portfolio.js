@@ -1,8 +1,16 @@
 import React from 'react';
 import Slide from 'react-reveal/Slide'
+import {scroller} from 'react-scroll'
 import './portfolio.css'
 
 const Portfolio = () => {
+    const toContact = () => {
+        scroller.scrollTo('contact', {
+            duration: 1000,
+            delay: 0,
+            smooth: true
+        })
+    }
     return (
         <div className="section portfolio">
             <div className="section_content">
@@ -76,7 +84,7 @@ const Portfolio = () => {
             </div>
             <div className="hire_me">
                 <h2><span>hire me</span> for your project</h2>
-                <button>contact me</button>
+                <button onClick={toContact}>contact me</button>
             </div>
         </div>
     );

@@ -26,7 +26,20 @@ const Contact = () => {
                 <h2 className="heading">contact me</h2>
                 <div className="options">
                     <div className="left">
-                        left
+                        <div className="line">
+                            <h4>PHONE</h4>
+                            <p>📞 +2348047593857</p>
+                        </div>
+                        <div className="line">
+                            <h4>EMAIL</h4>
+                            <p>📨 example@example.com</p>
+                        </div>
+                        <div className="line">
+                            <h4>ADDRESS</h4>
+                            <p>No 23, Ajakuta street, dead zone, Ibadan.</p>
+                        </div>
+                        
+
                         
 
                     </div>
