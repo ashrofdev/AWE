@@ -20,3 +20,14 @@ ul li:hover {
     background-color: rgba(255, 255, 255, 0.63);
     color: black;
 }
+@media only screen and (max-width: 440px) {
+    nav {
+        top: 7rem;
+        left: 2rem;
+    }
+    ul li {
+        padding: 1rem;
+        font-size: 1.2rem;
+    
+    }
+}
