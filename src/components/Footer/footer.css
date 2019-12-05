@@ -21,3 +21,8 @@
     margin-top: 3rem;
     font-weight: 100;
 }
+@media only screen and (max-width: 350px) {
+   .footer_text {
+       width: 20rem;
+   }
+}

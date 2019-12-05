@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AWE/static/css/main.5cd8e60b.chunk.css",
+    "main.css": "/AWE/static/css/main.83e69359.chunk.css",
     "main.js": "/AWE/static/js/main.389bb7a7.chunk.js",
     "main.js.map": "/AWE/static/js/main.389bb7a7.chunk.js.map",
     "runtime-main.js": "/AWE/static/js/runtime-main.e9b23495.js",
@@ -8,9 +8,9 @@
     "static/js/2.1ac50b23.chunk.js": "/AWE/static/js/2.1ac50b23.chunk.js",
     "static/js/2.1ac50b23.chunk.js.map": "/AWE/static/js/2.1ac50b23.chunk.js.map",
     "index.html": "/AWE/index.html",
-    "precache-manifest.d16fe2e27476bfe7cac1ac6bc94394c5.js": "/AWE/precache-manifest.d16fe2e27476bfe7cac1ac6bc94394c5.js",
+    "precache-manifest.6c5b8bd9bef847550626ab6beb9b86be.js": "/AWE/precache-manifest.6c5b8bd9bef847550626ab6beb9b86be.js",
     "service-worker.js": "/AWE/service-worker.js",
-    "static/css/main.5cd8e60b.chunk.css.map": "/AWE/static/css/main.5cd8e60b.chunk.css.map",
+    "static/css/main.83e69359.chunk.css.map": "/AWE/static/css/main.83e69359.chunk.css.map",
     "static/media/1.jpg": "/AWE/static/media/1.1953b82d.jpg",
     "static/media/2.jpg": "/AWE/static/media/2.f3c354db.jpg",
     "static/media/portfolio.css": "/AWE/static/media/3.2838f321.jpg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.e9b23495.js",
     "static/js/2.1ac50b23.chunk.js",
-    "static/css/main.5cd8e60b.chunk.css",
+    "static/css/main.83e69359.chunk.css",
     "static/js/main.389bb7a7.chunk.js"
   ]
 }
