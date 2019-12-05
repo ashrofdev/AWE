@@ -1,0 +1,22 @@
+nav {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    z-index: 100;
+}
+nav ul {
+    display: flex;
+}
+ul li {
+    padding: 1rem 2rem;
+    color: white;
+    transition: all .5s;
+    font-size: 1.3rem;
+    list-style: none;
+    cursor: pointer;
+
+}
+ul li:hover {
+    background-color: rgba(255, 255, 255, 0.63);
+    color: black;
+}

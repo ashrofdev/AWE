@@ -10,6 +10,7 @@ import Portfolio from './components/Portfolio/Portfolio';
 import Clients from './components/Clients/Clients';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import Nav from './components/Nav/Nav';
 
 
 
@@ -31,10 +32,11 @@ class App extends Component {
     
     return (
       <div className="App">
-        <Header/>
-        <About/>
+        <Nav/>
+        <Header scrollto="header"/>
+        <About scrollto="about"/>
         <Features/>
-        <Portfolio/>
+        <Portfolio scrollto="portfolio"/>
         <Clients/>
         <Contact scrollto="contact"/>
         <Footer/>

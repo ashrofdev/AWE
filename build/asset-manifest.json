@@ -1,24 +1,30 @@
 {
   "files": {
-    "main.css": "/AWE/static/css/main.05cf7d94.chunk.css",
-    "main.js": "/AWE/static/js/main.23b0918f.chunk.js",
-    "main.js.map": "/AWE/static/js/main.23b0918f.chunk.js.map",
-    "runtime~main.js": "/AWE/static/js/runtime~main.fb1dafd7.js",
-    "runtime~main.js.map": "/AWE/static/js/runtime~main.fb1dafd7.js.map",
-    "static/js/2.ce09a571.chunk.js": "/AWE/static/js/2.ce09a571.chunk.js",
-    "static/js/2.ce09a571.chunk.js.map": "/AWE/static/js/2.ce09a571.chunk.js.map",
-    "index.html": "/AWE/index.html",
-    "precache-manifest.33fa2e80d8f6b596551713a05148da68.js": "/AWE/precache-manifest.33fa2e80d8f6b596551713a05148da68.js",
-    "service-worker.js": "/AWE/service-worker.js",
-    "static/css/main.05cf7d94.chunk.css.map": "/AWE/static/css/main.05cf7d94.chunk.css.map",
-    "static/media/1.jpg": "/AWE/static/media/1.1953b82d.jpg",
-    "static/media/2.jpg": "/AWE/static/media/2.f3c354db.jpg",
-    "static/media/portfolio.css": "/AWE/static/media/3.2838f321.jpg",
-    "static/media/4.jpg": "/AWE/static/media/4.71b409fb.jpg",
-    "static/media/5.jpg": "/AWE/static/media/5.b6c27d52.jpg",
-    "static/media/6.jpg": "/AWE/static/media/6.5eeabffb.jpg",
-    "static/media/7.jpg": "/AWE/static/media/7.95e59093.jpg",
-    "static/media/8.jpg": "/AWE/static/media/8.427b8608.jpg",
-    "static/media/c.jpg": "/AWE/static/media/c.a5668c1c.jpg"
-  }
+    "main.css": "/UIbuy/static/css/main.7d894111.chunk.css",
+    "main.js": "/UIbuy/static/js/main.2bb0999e.chunk.js",
+    "main.js.map": "/UIbuy/static/js/main.2bb0999e.chunk.js.map",
+    "runtime-main.js": "/UIbuy/static/js/runtime-main.b0a3069a.js",
+    "runtime-main.js.map": "/UIbuy/static/js/runtime-main.b0a3069a.js.map",
+    "static/js/2.0842eb95.chunk.js": "/UIbuy/static/js/2.0842eb95.chunk.js",
+    "static/js/2.0842eb95.chunk.js.map": "/UIbuy/static/js/2.0842eb95.chunk.js.map",
+    "index.html": "/UIbuy/index.html",
+    "precache-manifest.103a02db953b3ae6c7974571bb83332d.js": "/UIbuy/precache-manifest.103a02db953b3ae6c7974571bb83332d.js",
+    "service-worker.js": "/UIbuy/service-worker.js",
+    "static/css/main.7d894111.chunk.css.map": "/UIbuy/static/css/main.7d894111.chunk.css.map",
+    "static/media/1.jpg": "/UIbuy/static/media/1.1953b82d.jpg",
+    "static/media/2.jpg": "/UIbuy/static/media/2.f3c354db.jpg",
+    "static/media/portfolio.css": "/UIbuy/static/media/3.2838f321.jpg",
+    "static/media/4.jpg": "/UIbuy/static/media/4.71b409fb.jpg",
+    "static/media/5.jpg": "/UIbuy/static/media/5.b6c27d52.jpg",
+    "static/media/6.jpg": "/UIbuy/static/media/6.5eeabffb.jpg",
+    "static/media/7.jpg": "/UIbuy/static/media/7.95e59093.jpg",
+    "static/media/8.jpg": "/UIbuy/static/media/8.427b8608.jpg",
+    "static/media/c.jpg": "/UIbuy/static/media/c.a5668c1c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b0a3069a.js",
+    "static/js/2.0842eb95.chunk.js",
+    "static/css/main.7d894111.chunk.css",
+    "static/js/main.2bb0999e.chunk.js"
+  ]
 }
