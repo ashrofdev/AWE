@@ -40,6 +40,7 @@
 @media only screen and (max-width: 490px) {
     .slider, .slider .slide {
         height: 80vh;
+        width: 100vw;
     }
 
     .slider h1 {
