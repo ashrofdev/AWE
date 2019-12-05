@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './app.css'
 
 import { firebaseDB } from './Server';
+import { scroller } from 'react-scroll'
 
 import Header from './components/Header/Header';
 import About from './components/AboutMe/About';
@@ -16,7 +17,8 @@ import Jobs from './components/Jobs/Jobs';
 
 class App extends Component {
   state = {
-      clients: []
+      clients: [],
+      password: 'pass'
   }
   async componentDidMount(){
     const clients = []
@@ -29,20 +31,33 @@ class App extends Component {
     this.setState({clients: clients})
 
   }
+  authenticate = () => {
+    console.log('222')
+    const pass = prompt('ENTER PASSWORD')
+    if (pass === this.state.password) {
+        scroller.scrollTo('jobs', {
+            duration: 1000,
+            delay: 0,
+            smooth: true
+        })
+    } else {
+      alert('wrong password')
+    }
+  }
 
   
   render() {
     
     return (
       <div className="App">
-        <Nav/>
+        <Nav authenticate={this.authenticate}/>
         <Header/>
         <About />
         <Features/>
         <Portfolio />
         <Clients/>
         <Contact />
-        <Jobs clients={this.state.clients}/>
+        <Jobs clients={this.state.clients} />
         <Footer/>
       </div>
     );
