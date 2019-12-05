@@ -11,34 +11,38 @@ import Clients from './components/Clients/Clients';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import Nav from './components/Nav/Nav';
-
+import Jobs from './components/Jobs/Jobs';
 
 
 class App extends Component {
-
-  componentDidMount(){
-    firebaseDB.ref('clients').once('value').then((snapshot)=>{
+  state = {
+      clients: []
+  }
+  async componentDidMount(){
+    const clients = []
+    await firebaseDB.ref('clients').once('value').then((snapshot)=>{
       snapshot.forEach(e=>{
-        this.state.clients.push(e.val())
-        console.log(this.state.clients)
+        clients.push(e.val())
       })
       
     })
+    this.setState({clients: clients})
+
   }
-  state = {
-    clients: []
-  }
+
+  
   render() {
     
     return (
       <div className="App">
         <Nav/>
-        <Header scrollto="header"/>
-        <About scrollto="about"/>
+        <Header/>
+        <About />
         <Features/>
-        <Portfolio scrollto="portfolio"/>
+        <Portfolio />
         <Clients/>
-        <Contact scrollto="contact"/>
+        <Contact />
+        <Jobs clients={this.state.clients}/>
         <Footer/>
       </div>
     );

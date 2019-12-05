@@ -13,11 +13,10 @@ const Nav = () => {
     return (
         <nav>
             <ul>
-                <li onClick={()=>goTo('header')}>Home</li>
                 <li onClick={()=>goTo('about')}>About</li>
+                <li onClick={()=>goTo('jobs')}>Jobs</li>
                 <li onClick={()=>goTo('portfolio')}>Portfolio</li>
                 <li onClick={()=>goTo('contact')}>Hire me</li>
-                <li onClick={()=>goTo('info')}>info</li>
             </ul> 
         </nav>
     );

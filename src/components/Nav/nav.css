@@ -1,7 +1,7 @@
 nav {
     position: absolute;
     top: 2rem;
-    right: 2rem;
+    right: 5rem;
     z-index: 100;
 }
 nav ul {
@@ -21,6 +21,9 @@ ul li:hover {
     color: black;
 }
 @media only screen and (max-width: 440px) {
+    nav {
+        right: 2rem;
+    }
   
     ul li {
         padding: 1rem;
