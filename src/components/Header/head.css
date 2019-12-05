@@ -39,7 +39,7 @@
 
 @media only screen and (max-width: 490px) {
     .slider, .slider .slide {
-        height: 80vh;
+        height: 75vh;
         width: 100vw;
     }
 
@@ -51,6 +51,9 @@
    
 }
 @media only screen and (max-width: 345px) {
+    .slider, .slider .slide {
+        height: 65vh;
+    }
     .logo {
         width: 4rem;
     }
