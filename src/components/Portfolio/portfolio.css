@@ -14,8 +14,8 @@
     margin-top: 5rem;
     text-transform: uppercase;
     color: #777;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.815),
-     rgba(0, 0, 0, 0.815)), url(../img/3.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.692),
+     rgba(0, 0, 0, 0.685)), url(../img/3.jpg);
      background-attachment: fixed;
      background-repeat: no-repeat;
      background-size: cover;

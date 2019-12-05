@@ -4,7 +4,7 @@ import './clients.css'
 
 const Clients = () => {
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         duration: 500,
         autoplay: true

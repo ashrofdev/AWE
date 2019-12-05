@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-// import 'font-awesome/css/font-awesome.min.css'
 import './app.css'
-import {firebaseDB} from './Server'
+
+import { firebaseDB } from './Server';
 
 import Header from './components/Header/Header';
 import About from './components/AboutMe/About';
@@ -9,6 +9,7 @@ import Features from './components/Features/Features';
 import Portfolio from './components/Portfolio/Portfolio';
 import Clients from './components/Clients/Clients';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 
 
@@ -36,6 +37,7 @@ class App extends Component {
         <Portfolio/>
         <Clients/>
         <Contact scrollto="contact"/>
+        <Footer/>
       </div>
     );
   }
