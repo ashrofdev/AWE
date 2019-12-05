@@ -18,7 +18,7 @@ import Jobs from './components/Jobs/Jobs';
 class App extends Component {
   state = {
       clients: [],
-      password: 'pass'
+      password: 'timi0717'
   }
   async componentDidMount(){
     const clients = []
@@ -35,6 +35,7 @@ class App extends Component {
     console.log('222')
     const pass = prompt('ENTER PASSWORD')
     if (pass === this.state.password) {
+        document.querySelector('.jobs').classList.add('show')
         scroller.scrollTo('jobs', {
             duration: 1000,
             delay: 0,

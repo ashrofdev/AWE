@@ -1,17 +1,20 @@
-.client {
-    display: flex;
-    border-bottom: 1px solid black;
-    justify-content: space-between;
-    padding: 0;
-    border: 1px solid black;
+/* .jobs {
+    display: none;
 }
-.clients .client .p {
-    font-size: 1.5rem;
-    padding: 0 3rem;
+.show {
+    display: grid;
+} */
+
+
+ .clients .client .p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
 
 
 @media only screen and (max-width: 430px) {
+
     .client {
         display: block;
         text-align: left;
@@ -21,10 +24,7 @@
     .c_head {
         display: none;
     }
-    .clients .client  .p {
-        display: flex;
-        justify-content: flex-start;
-    }
+   
     .p p {
         text-align: left;
     }
