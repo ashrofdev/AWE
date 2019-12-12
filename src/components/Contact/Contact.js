@@ -7,6 +7,7 @@ import { firebaseDB } from '../../Server';
 
 const Contact = () => {
     const onMessageSend = async () => {
+        alert('Sending...')
         await firebaseDB.ref('clients').push().set({
             name: document.querySelector('.name').value,
             email: document.querySelector('.mail').value,
@@ -14,8 +15,10 @@ const Contact = () => {
             message: document.querySelector('.message').value,
         }).then(snapshot=>{
             console.log(snapshot)
+            alert('Message sent successfuly')
         }).catch(err=>{
             console.log(err)
+            alert('Unable to send message')
         })
         document.querySelector('input').value = ''
         document.querySelector('textarea').value = ''
@@ -38,8 +41,6 @@ const Contact = () => {
                             <h4>ADDRESS</h4>
                             <p>No 23, Ajakuta street, no-entry, Ibadan.</p>
                         </div>
-                        
-
                         
 
                     </div>
