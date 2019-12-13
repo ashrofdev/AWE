@@ -1,7 +1,7 @@
 .portfolio .works {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: .5rem;
+    grid-gap: 1rem;
 }
 .portfolio {
     padding-top: 8rem;
@@ -36,6 +36,9 @@ span {
 .hire_me button:hover {
     background-color: white;
     color: black;
+}
+.pro_img {
+    height: 20rem;
 }
 
 @media only screen and (max-width: 730px) {

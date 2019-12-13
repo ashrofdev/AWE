@@ -30,7 +30,7 @@ class App extends Component {
       })
       
     })
-    firebaseDB.ref('projects').once('value', snapshot =>{
+    await firebaseDB.ref('projects').once('value', snapshot =>{
       snapshot.forEach(e=>{
         projects.push(e.val())
       })

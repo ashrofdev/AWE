@@ -4,6 +4,18 @@ import {scroller} from 'react-scroll'
 import './portfolio.css'
 
 const Portfolio = ({projects}) => {
+    console.log(projects)
+
+    const project = projects.map(i=>{
+        return (
+            <Slide bottom delay={100}>
+                <figure className="work">
+                    <img className="pro_img" src={i.url}/>
+                </figure>
+            </Slide>
+        )
+    })
+
     const toContact = () => {
         scroller.scrollTo('contact', {
             duration: 1000,
@@ -17,47 +29,8 @@ const Portfolio = ({projects}) => {
                 <h2 className="heading">My Recent works</h2>
 
                 <div className="works">
-                    <Slide bottom delay={100}>
-                        <figure className="work">
-                            <img src={require('../img/1.jpg')}/>
-                        </figure>
-                    </Slide>
-                    <Slide left duration={1000} delay={400}>
-                        <figure className="work">
-                            <img src={require('../img/2.jpg')}/>
-                        </figure>
-                    </Slide>
-
-                    <Slide right delay={600}>
-                        <figure className="work">
-                            <img src={require('../img/3.jpg')}/>
-                        </figure>
-                    </Slide>
-                    <Slide top delay={100}>
-                        <figure className="work">
-                            <img src={require('../img/4.jpg')}/>
-                        </figure>
-                    </Slide>
-                    <Slide right duration={1000} delay={400}>
-                        <figure className="work">
-                            <img src={require('../img/5.jpg')}/>
-                        </figure>
-                    </Slide>
-                    <Slide bottom delay={600}>
-                        <figure className="work">
-                            <img src={require('../img/6.jpg')}/>
-                        </figure>
-                    </Slide>
-                    <Slide right duration={1000} delay={200}>
-                        <figure className="work">
-                            <img src={require('../img/7.jpg')}/>
-                        </figure>
-                    </Slide>
-                    <Slide top delay={400}>
-                        <figure className="work">
-                            <img src={require('../img/8.jpg')}/>
-                        </figure>
-                    </Slide>
+                    {project}
+                   
                     <Slide bottom duration={1000} delay={600}>
                         <figure className="work">
                             <img src={require('../img/3.jpg')}/>
