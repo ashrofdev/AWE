@@ -3,7 +3,7 @@ import Slide from 'react-reveal/Slide'
 import {scroller} from 'react-scroll'
 import './portfolio.css'
 
-const Portfolio = () => {
+const Portfolio = ({projects}) => {
     const toContact = () => {
         scroller.scrollTo('contact', {
             duration: 1000,

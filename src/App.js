@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './app.css'
 
-import { firebaseDB } from './Server';
+import { firebaseDB, storage } from './Server';
 import { scroller } from 'react-scroll'
 
 import Header from './components/Header/Header';
@@ -18,17 +18,28 @@ import Jobs from './components/Jobs/Jobs';
 class App extends Component {
   state = {
       clients: [],
+      projects: [],
       password: 'timi0717'
   }
   async componentDidMount(){
     const clients = []
+    const projects = []
     await firebaseDB.ref('clients').once('value').then((snapshot)=>{
       snapshot.forEach(e=>{
         clients.push(e.val())
       })
       
     })
-    this.setState({clients: clients})
+    firebaseDB.ref('projects').once('value', snapshot =>{
+      snapshot.forEach(e=>{
+        projects.push(e.val())
+      })
+    })
+    this.setState({
+      clients,
+      projects
+    })
+    console.log(this.state.projects)
 
   }
   authenticate = () => {
@@ -46,6 +57,23 @@ class App extends Component {
     }
   }
 
+
+  async upload (file){
+    console.log(file.target.files[0])
+    const num  = Math.floor(Math.random() * Math.floor(100))
+    await storage.ref(`project ${num}`).put(file.target.files[0])
+
+    storage.ref(`project ${num}`).getDownloadURL().then(url=>{
+        firebaseDB.ref('projects').push().set({
+            url: url
+        })
+        console.log(url)
+    })
+    
+
+    
+
+  }
   
   render() {
     
@@ -55,10 +83,10 @@ class App extends Component {
         <Header/>
         <About />
         <Features/>
-        <Portfolio />
+        <Portfolio projects={this.state.projects} />
         <Clients/>
         <Contact />
-        <Jobs clients={this.state.clients} />
+        <Jobs upload={this.upload} clients={this.state.clients} />
         <Footer/>
       </div>
     );

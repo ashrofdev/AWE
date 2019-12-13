@@ -1,15 +1,11 @@
 import React from 'react';
 import './jobs.css'
-import { storage } from 'firebase';
 
+import {firebaseDB, storage} from '../../Server'
 
+const Jobs = ({clients, upload}) => {
 
-const Jobs = ({clients}) => {
-
-    const upload = (file) => {
-        console.log(file.target.files[0])
-        storage
-    }
+    
 
     const client = clients.map((i,e)=>{
         return (
