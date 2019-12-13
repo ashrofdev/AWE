@@ -33,7 +33,32 @@ const Portfolio = ({projects}) => {
                    
                     <Slide bottom duration={1000} delay={600}>
                         <figure className="work">
+                            <img src={require('../img/1.jpg')}/>
+                        </figure>
+                    </Slide>
+                    <Slide top duration={1000} delay={600}>
+                        <figure className="work">
+                            <img src={require('../img/2.jpg')}/>
+                        </figure>
+                    </Slide>
+                    <Slide left duration={1000} delay={600}>
+                        <figure className="work">
+                            <img src={require('../img/4.jpg')}/>
+                        </figure>
+                    </Slide>
+                    <Slide bottom duration={1000} delay={600}>
+                        <figure className="work">
                             <img src={require('../img/3.jpg')}/>
+                        </figure>
+                    </Slide>
+                    <Slide top duration={1000} delay={600}>
+                        <figure className="work">
+                            <img src={require('../img/5.jpg')}/>
+                        </figure>
+                    </Slide>
+                    <Slide right duration={1000} delay={600}>
+                        <figure className="work">
+                            <img src={require('../img/6.jpg')}/>
                         </figure>
                     </Slide>
                    
