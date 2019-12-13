@@ -15,7 +15,6 @@ const Footer = () => {
                 </p>
                 <p className="copy">&copy; All rights reserved by ashrofdev</p>
             </div>
-            
         </div>
     );
 };

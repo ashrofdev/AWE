@@ -1,7 +1,16 @@
 import React from 'react';
 import './jobs.css'
+import { storage } from 'firebase';
+
+
 
 const Jobs = ({clients}) => {
+
+    const upload = (file) => {
+        console.log(file.target.files[0])
+        storage
+    }
+
     const client = clients.map((i,e)=>{
         return (
             <div className="client">
@@ -19,6 +28,9 @@ const Jobs = ({clients}) => {
                     <div className="clients">
                         {client}
                     </div>
+                </div>
+                <div className="section_content">
+                    <input onChange={(file)=>upload(file)} placeholder="upload new project" type="file"/>
                 </div>
         </div>
     );
