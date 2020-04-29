@@ -61,6 +61,21 @@ const Portfolio = ({projects}) => {
                             <img src={require('../img/6.jpg')}/>
                         </figure>
                     </Slide>
+                    <Slide bottom duration={1000} delay={600}>
+                        <figure className="work">
+                            <img src={require('../img/9.jpg')}/>
+                        </figure>
+                    </Slide>
+                    <Slide top duration={1000} delay={600}>
+                        <figure className="work">
+                            <img src={require('../img/10.jpg')}/>
+                        </figure>
+                    </Slide>
+                    <Slide right duration={1000} delay={600}>
+                        <figure className="work">
+                            <img src={require('../img/11.jpg')}/>
+                        </figure>
+                    </Slide>
                    
                     
                    
